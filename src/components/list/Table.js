@@ -21,7 +21,9 @@ const Table = ({ currencies, history }) => {
             {currencies.map((currency) => (
               <tr
                 key={currency.id}
-                onClick={() => history.push(`/currency/${currency.id}`)}
+                onClick={() =>
+                  history.push(`/hooks_cryptogod/currency/${currency.id}`)
+                }
               >
                 <td>
                   <span className='Table-rank'>{currency.rank}</span>

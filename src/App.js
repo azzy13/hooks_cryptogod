@@ -12,8 +12,12 @@ function App() {
       <div>
         <Header />
         <Switch>
-          <Route exact path='/' component={List} />
-          <Route exact path='/currency/:id' component={Detail} />
+          <Route exact path='/hooks_cryptogod/' component={List} />
+          <Route
+            exact
+            path='/hooks_cryptogod/currency/:id'
+            component={Detail}
+          />
           <Route component={NotFound} />
         </Switch>
       </div>

@@ -7,7 +7,7 @@ import Search from './Search';
 const Header = () => {
   return (
     <div className='Header'>
-      <Link to='/'>
+      <Link to='/hooks_cryptogod/'>
         <img src={logo} alt='logo' className='Header-logo' />
       </Link>
 

@@ -36,7 +36,7 @@ const Search = ({ history }) => {
     setSearchQuery('');
     setSearchResults([]);
 
-    history.push(`/currency/${currencyId}`);
+    history.push(`/hooks_cryptogod/currency/${currencyId}`);
   };
 
   const displayResults = () => {
